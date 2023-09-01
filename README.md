@@ -1,5 +1,5 @@
 # pacbio_oxford_assembly_binding_ruby_motif_scanner
- a fasta class to make genomic sliding window for the if you have a binding site and you want to prepare the motifs for the binding site as a sliding window you can also use the same. You can also search the    sliding window motifs starting with the particular tag to see how many of them are generated. This has been published as a gem [RFastaMotifSlidingGenerator](https://rubygems.org/gems/FastaslidingwindowGenerator/versions/0.0.0)
+ a fasta class to make genomic sliding window for the if you have a binding site and you want to prepare the motifs for the binding site as a sliding window you can also use the same. You can also search the    sliding window motifs starting with the particular tag to see how many of them are generated. This has been published as a gem [RFastaMotifSlidingGenerator](https://rubygems.org/gems/fasta_motif_sliding_generator/versions/0.0.1)
 
 ```
 fast = FastaMotifSlidingGenerator.new("ATATAGTATATATA", "3", "GT")
@@ -11,8 +11,8 @@ fast.sequencechunk
 fast.returnmotif
 ["GTA"]
 to install
-gem install FastaslidingwindowGenerator
-require "FastaslidingwindowGenerator"
+gem install fasta_motif_sliding_generator
+require "fasta_motif_sliding_generator"
 
 ```
 Gaurav Sablok \
