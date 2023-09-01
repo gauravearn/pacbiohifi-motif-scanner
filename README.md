@@ -10,6 +10,12 @@ fast.sequencechunk
                    "TAT", "ATA", "TAT", "ATA", "TAT", "ATA"]
 fast.returnmotif
 ["GTA"]
+This has been published as a gem [RFastaMotifSlidingGenerator](https://rubygems.org/gems/FastaslidingwindowGenerator/versions/0.0.0)
+ to install
+
+gem install FastaslidingwindowGenerator
+require "FastaslidingwindowGenerator"
+
 ```
 Gaurav Sablok \
 Frontiers: https://loop.frontiersin.org/people/33293/overview \
