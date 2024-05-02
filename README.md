@@ -15,7 +15,7 @@ gem install fasta_motif_sliding_generator
 require "fasta_motif_sliding_generator"
 
 ```
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
